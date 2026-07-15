@@ -1,0 +1,15 @@
+model:
+  provider: ollama
+  host: http://ollama:11434
+  model: qwen3:8b
+
+database:
+  host: postgres
+  port: 5432
+  database: openclaw
+  username: openclaw
+  password: openclaw123
+
+redis:
+  host: redis
+  port: 6379
